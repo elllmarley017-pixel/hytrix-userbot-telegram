@@ -12,8 +12,8 @@ from utils.cleanup import ensure_temp_dir, cleanup_file
 from utils.helpers import sanitize_filename
 
 # API config via environment variable
-KRYNOX_API_KEY = os.environ.get("KRYNOX_API_KEY", "sk-b6329b943f8c7918-cm6mm3-948f895c")
-KRYNOX_ENDPOINT = "https://ai.krynox.dev/v1/chat/completions"
+KRYNOX_API_KEY = os.environ.get("KRYNOX_API_KEY", "sk-xxxx")
+KRYNOX_ENDPOINT = "https://ai.xxx.com/v1/chat/completions"
 KRYNOX_MODEL = "kc/minimax/minimax-m3:free"
 
 # Fallback API (auto-switch when Krynox fails)
